@@ -1,0 +1,33 @@
+body{
+	background-color: red;
+
+}
+.container{width: 50%;/*altera a largura*/
+height: auto;/*alinha ao centro*/
+margin: 0 auto;/*margem*/
+background-color: black;/*cor*/
+
+}
+.header{background-color: grey;
+	width: 100%;
+	height: 150px;
+	font-size:100%;
+	margin-top:1%
+}
+.nav{width:100%;
+	height: 123px;
+	background-color:green;
+	margin:;
+
+}
+.section{width:100%;
+	height: 123px;
+	background-color:blue;
+}
+.footer{width:100%;
+	height: 123px;
+	background-color:yellow;
+}
+*{
+	margin-top: 10%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var n1,n2,op;
+	op = parseInt(prompt("Escolha uma opção: \n1 - Soma \n2 - Subtração \n3 - Multiplicação \n4 - Divisão"));
+	switch(op){
+		case 1:
+		n1 = parseInt(prompt("Digite n1"));
+		n2 = parseInt(prompt("Digite n2"));
+		alert("Soma:"+(n1+n2))
+		case 2:
+		n1 = parseInt(prompt("Digite n1"));
+		n2 = parseInt(prompt("Digite n2"));
+		alert("Subtração:"+(n1-n2))
+		case 3:
+		n1 = parseInt(prompt("Digite n1"));
+		n2 = parseInt(prompt("Digite n2"));
+		alert("Multiplicação:"+(n1*n2))
+		case 4:
+		n1 = parseInt(prompt("Digite n1"));
+		n2 = parseInt(prompt("Digite n2"));
+		if (n2 != 0) {
+			alert("Divisão:"+(n1/n2))
+		}
+		else{
+			alert("Não divide por zero")
+	}
+	break;
+	default:
+		alert("Opção Inválida");
+		}
+
+</script>
+</body>
+</html>
